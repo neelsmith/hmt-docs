@@ -3,7 +3,7 @@
 index.md=Guides for contributors to the HMT project
 vm.md=Running a HMT virtual machine
 basic-git.md=Using git to work on HMT editions
-github-for-hmt.md=Advanced git for HMT
+advanced-git.md=Advanced git for HMT
 hmtweb.md=Editing the HMT web site
 
 

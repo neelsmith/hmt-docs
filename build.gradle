@@ -14,8 +14,8 @@ buildscript {
         }
     }
     dependencies {
-        classpath  group: 'edu.holycross.shot', name : 'mdweb' , version: "0.3.1"
-        classpath group: 'org.pegdown', name : 'pegdown', version: "1.0.1"
+        classpath  group: 'edu.holycross.shot', name : 'mdweb' , version: "0.4.2"
+      classpath group: 'edu.harvard.chs', name : 'citedown', version: "1.2.1.0.1.0"
     }
 }
 
@@ -27,13 +27,6 @@ apply from: "conf.gradle"
 group = "edu.harvard.chs"
 version = '0.1.1'
 
-
-
-task raw(type:Copy) {
-    from rawdirectory
-    into "${buildDir.path}/web/guides"
-    include "**/*.*"
-}
 
 
 task css(type:Copy) {
@@ -48,7 +41,7 @@ task imgs(type:Copy) {
     include "**/*.jpg", "**/*.jpeg", "**/*.png"
 }
 
-task web(dependsOn: [css, imgs, raw]) {
+task web(dependsOn: [css, imgs]) {
     description =  "Use mdweb library to build web site"
     doLast {
         File src = new File(srcdirectory)
