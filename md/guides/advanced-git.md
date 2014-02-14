@@ -8,7 +8,7 @@ See a guide to [using git to work on HMT editions](basic-git.html)
 
 ## Forking, Pull-Requests, Merging ##
 
-See the `github` help page: <https://help.github.com/articles/fork-a-repo>.
+See the `github` help page "Fork a repo": <https://help.github.com/articles/fork-a-repo>.
 
 1. From the `github` web interface, fork the repository.
 1. Clone the fork to your machine (e.g., `git clone FORKEDREPOSITORYNAME` on your machine.)

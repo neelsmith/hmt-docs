@@ -1,7 +1,23 @@
 # Guides for contributors #
 
 
-- [Using github][1] to contribute to the HMT project
-- House XML style guide for editors
+## Basic guides ##
 
-[1]: github-for-hmt.html
+
+- [Using git][1] to work on HMT editions
+- House XML style guide for editors
+- [Using a virtual machine][3] to work on HMT projects
+
+## Advanced topics ##
+
+
+- [Using github's fork and pull request][2] to contribute to the HMT project
+- [Editing the HMT web site][4]
+
+[1]: basic-git.html
+
+[2]: advanced-git.html
+
+[3]: vm.html
+
+[4]: hmt-web.html
