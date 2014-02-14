@@ -1,6 +1,9 @@
 # Using `github` to contribute to the HMT project
 
+## Background ##
 
+
+See a guide to [using git to work on HMT editions](basic-git.html)
 
 
 ## Forking, Pull-Requests, Merging ##
