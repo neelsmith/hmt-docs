@@ -3,10 +3,8 @@
 # Lines beginning with # are treated as comments and are ignored,
 # as are empty lines.
 
-index.md=Homer Multitext project:  documentation
-specifications=Technical specifications
-acknowledgments.md=The CHS Technical Working Group
-guides=Guides for HMT contributors
+index.md=Technical specifications
+
 
 
 

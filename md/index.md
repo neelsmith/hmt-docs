@@ -1,3 +1,5 @@
 # The Homer Multitext project:  documentation #
 
-It should go here.
+- [Guides for contributors to the HMT project](guides)
+- An [overview of the CITE architecture](cite)
+- Technical [specifications](specifications)
